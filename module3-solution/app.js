@@ -54,8 +54,8 @@ function FoundItemsDirectiveController() {
   };
 }
 
-MenuSearchService.$inject = ['$http', 'ApiBasePath'];
-function MenuSearchService($http, ApiBasePath) {
+MenuSearchService.$inject = ['$https', 'ApiBasePath'];
+function MenuSearchService($https, ApiBasePath) {
   var service = this;
   var foundItems = [];
 
